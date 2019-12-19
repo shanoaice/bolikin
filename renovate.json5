@@ -6,5 +6,5 @@
   major: {
     automerge: false,
   },
-  commitMessagePrefix: ":package: Deps: "
+  commitMessagePrefix: "📦Deps: "
 }
