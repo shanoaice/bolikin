@@ -2,7 +2,7 @@
   "name": "bolikin",
   "version": "0.0.0",
   "description": "A simlpe testing harness for Node.js and Browsers",
-  "main": "dist/bolikin.cjs.js",
+  "main": "dist/bolikin.umd.js",
   "files": [
     "dist"
   ],
@@ -18,17 +18,22 @@
   },
   "author": "KsRyY<andy200511@126.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "deep-equal": "^2.0.1",
+    "eventemitter3": "^4.0.0"
+  },
   "devDependencies": {
-    "xo": "0.25.3",
-    "eslint-config-rem": "4.0.0",
-    "prettier": "1.19.1",
+    "bili": "3.4.2",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint-config-prettier": "6.7.0",
+    "eslint-config-rem": "4.0.0",
     "eslint-plugin-prettier": "3.1.2",
     "jest": "24.9.0",
     "lint-staged": "9.5.0",
     "husky": "3.1.0",
-    "bili": "3.4.2"
+    "prettier": "1.19.1",
+    "xo": "0.25.3"
   },
   "jest": {
     "testEnvironment": "node"
@@ -40,7 +45,10 @@
     ],
     "envs": [
       "jest"
-    ]
+    ],
+    "rules": {
+      "eqeqeq": 0
+    }
   },
   "husky": {
     "hooks": {
@@ -56,5 +64,12 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "browserslist": [
+    "> 0.8%",
+    "not dead",
+    "not op_mini all",
+    "not ie 11",
+    "node > 8"
+  ]
 }
