@@ -1,6 +1,6 @@
 # bolikin
 
-[![NPM version](https://badgen.net/npm/v/bolikin)](https://npmjs.com/package/bolikin) [![NPM downloads](https://badgen.net/npm/dm/bolikin)](https://npmjs.com/package/bolikin) [![Maintenance](https://img.shields.io/maintenance/yes/2019)](https://github.com/KsRyY/bolikin/commits/master)
+[![NPM version](https://badgen.net/npm/v/bolikin)](https://npmjs.com/package/bolikin) [![NPM downloads](https://badgen.net/npm/dm/bolikin)](https://npmjs.com/package/bolikin) [![Maintenance](https://img.shields.io/maintenance/yes/2020)](https://github.com/KsRyY/bolikin/commits/master)
 
 ## Install
 
