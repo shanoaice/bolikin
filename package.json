@@ -33,7 +33,7 @@
     "lint-staged": "9.5.0",
     "husky": "4.0.1",
     "prettier": "1.19.1",
-    "xo": "0.25.3"
+    "xo": "0.58.0"
   },
   "jest": {
     "testEnvironment": "node"
